@@ -1,8 +1,8 @@
 # Project 3: Spots
- in this wedsite you can describe add and and edit images.
+ In this website will describe add and edit images.
 
  ## Description
-  is this wedsite images add like and post images
+  is this website images add like and post images
 
 * Intro  
 * Figma  
@@ -15,7 +15,7 @@ This project is made so all the elements are displayed correctly on popular scre
 **Figma**
   
 * [Link to the project ](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
- # link to project demo
+ 
 ### Tech Stack
 -HTML
 -CSS
@@ -24,7 +24,8 @@ This project is made so all the elements are displayed correctly on popular scre
 -blocks
   
 #### Deployment 
-this wedpage is deployed to Github pages
+This webpage is deployed to Github pages
 
  
- -deployment link:
+-deployment link: [https://marypro1.github.io/se_project_spots/]
+
