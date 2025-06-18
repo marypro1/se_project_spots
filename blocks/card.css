@@ -8,46 +8,54 @@
   width: 100%;
   object-fit: cover;
   display: block;
+  border-radius: 16px;
 }
 
 .card__content {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 12px;
 }
 
 .card__title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  margin: 12px 0 0 0;
+  margin: 0px;
+  color: #212121;
+  line-height: 24px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 353px;
 }
 
 .card__like-button {
-  background-image: url(../images/heart.Icon.svg);
+  background-image: url(../images/transparentheart.svg);
   width: 23px;
   height: 20px;
   border: none;
   background-color: transparent;
-  opacity: 40%;
+}
+
+.card__like-button:hover {
+  background-image: url(../images/State=Hover.svg);
+  cursor: pointer;
 }
 
 @media screen and (max-width: 427px) {
   .card {
     width: 288px;
-    gap: 12px;
   }
 
   .card__title {
     font-size: 16px;
+    max-width: 250px;
   }
 
   .card__image {
     height: 288px;
     width: 288px;
-    left: 16px;
-    border-bottom-width: 1px;
-    padding-bottom: 20px;
-    gap: 20px;
   }
 }
