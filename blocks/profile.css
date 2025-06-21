@@ -55,20 +55,24 @@
 }
 
 .profile__button-edit {
+  display: flex;
+  font-weight: 500;
   width: fit-content;
   margin-top: auto;
   background: none;
   border: none;
   opacity: 70%;
+  color: #212121;
 }
 
-.profile__button-edit:before {
+.profile__button-edit:hover {
   content: "";
   width: 16px;
   height: 16px;
   background: url("../images/pensil.svg") center no-repeat;
   display: inline-block;
   margin-right: 8px;
+  cursor: pointer;
 }
 
 .profile__button-add {
@@ -87,6 +91,7 @@
 
 .profile__button-add:hover {
   cursor: pointer;
+  opacity: 0.8;
 }
 
 .profile__plus {
@@ -98,26 +103,20 @@
   .profile {
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 20px 0;
   }
 
   .profile__name {
     margin-bottom: 6px;
     font-size: 20px;
     max-width: 288px;
-    font-size: 20px;
-    letter-spacing: 0%;
     text-align: center;
   }
 
   .profile__description {
-    height: 16px;
     margin-bottom: 32px;
     max-width: 288px;
     text-align: center;
-    height: 16px;
-    gap: 8px;
-    border-radius: 90px;
   }
 
   .profile__column {
@@ -133,20 +132,14 @@
 
   .profile__button-edit {
     font-size: 16px;
-    font-weight: 500px;
     line-height: 100%;
-    color: #212121;
   }
 
   .profile__button-add {
     margin-top: 20px;
     max-width: 288px;
     width: 100%;
-    font-family: Poppins;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 100%;
-    letter-spacing: 0%;
+    display: flex;
     justify-content: center;
   }
 }
