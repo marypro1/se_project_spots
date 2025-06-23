@@ -55,6 +55,7 @@
 }
 
 .profile__button-edit {
+  padding: 0;
   display: flex;
   font-weight: 500;
   width: fit-content;
@@ -65,13 +66,16 @@
   color: #212121;
 }
 
-.profile__button-edit:hover {
+.profile__button-edit::before {
   content: "";
   width: 16px;
   height: 16px;
   background: url("../images/pensil.svg") center no-repeat;
   display: inline-block;
   margin-right: 8px;
+}
+
+.profile__button-edit:hover{
   cursor: pointer;
 }
 
