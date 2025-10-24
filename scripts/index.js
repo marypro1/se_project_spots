@@ -40,23 +40,19 @@ newPostCloseBtn.addEventListener("click", function () {
   newPostModal.classList.remove("modal_is-opened");
 });
 
-function handleEditProfileSubmit(evet) {
-  evet.preventDefault();
+function handleEditProfileSubmit(event) {
+  event.preventDefault();
   profileName.textContent = editProfileNameInput.value;
   profileDescription.textContent = editProfileDescription.value;
   profileEditBtnModal.classList.remove("modal_is-opened");
-  
 }
-//what.addEventListener("for", whatAreWeGoingToDo)
-editProfileForm.addEventListener("submit", handleEditProfileSubmit);
 
-function handleNewPostSubmit(evet) {
-  evet.preventDefault();
+editProfileForm.addEventListener("submit", handleEditProfileSubmit);
+function handleNewPostSubmit(event) {
+  event.preventDefault();
   console.log("Submitting new post");
   console.log(newPostCaption.value);
   console.log(newPostLink.value);
   newPostModal.classList.remove("modal_is-opened");
 }
-
-//what.addEventListener("for", whatAreWeGoingToDo)
 newPostForm.addEventListener("submit", handleNewPostSubmit);
