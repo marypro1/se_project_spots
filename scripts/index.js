@@ -1,4 +1,4 @@
-const profileEditBtn = document.querySelector(".profile__button-edit");
+const profileEditBtn = document.querySelector(".profile__edit-button");
 const profileEditBtnModal = document.querySelector("#edit-profile-modal");
 const profileEditCloseBtn =
   profileEditBtnModal.querySelector(".modal__close-btn");
@@ -25,7 +25,7 @@ profileEditCloseBtn.addEventListener("click", function () {
   profileEditBtnModal.classList.remove("modal_is-opened");
 });
 
-const newPostBtn = document.querySelector(".profile__button-add");
+const newPostBtn = document.querySelector(".profile__new-post-button");
 const newPostModal = document.querySelector("#new-post-modal");
 const newPostForm = newPostModal.querySelector(".modal__form");
 
